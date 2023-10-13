@@ -638,7 +638,7 @@ header nav li:last-child {
     align-items: center;
     gap: 20px;
 }
-.left-section {
+.section2-left-section {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -647,7 +647,7 @@ header nav li:last-child {
     height: 400px;
 }
 
-.vertical-image {
+.section2-vertical-image {
     grid-row: span 2;
     overflow: hidden;
     display: flex;
@@ -655,7 +655,7 @@ header nav li:last-child {
 }
 
 
-.horizontal-image {
+.section2-horizontal-image {
     overflow: hidden;
     border: 0.25px solid #aaa;
     border-radius: 8px;
@@ -665,17 +665,17 @@ header nav li:last-child {
     translate: -80%;
 }
 
-.horizontal-image:nth-of-type(1) {
+.section2-horizontal-image:nth-of-type(1) {
     grid-column: 2;
     grid-row: 1;
 }
 
-.horizontal-image:nth-of-type(2) {
+.section2-horizontal-image:nth-of-type(2) {
     grid-column: 2;
     grid-row: 2;
 }
 
-.horizontal-image img {
+.section2-horizontal-image img {
     position: absolute;
     top: 0;
     left: 0;
@@ -684,7 +684,7 @@ header nav li:last-child {
     object-fit: cover;
 }
 
-.vertical-image img {
+.section2-vertical-image img {
     width: 100%;
     height: 100%;
     display: block;
@@ -692,11 +692,11 @@ header nav li:last-child {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.right-section {
+.section2-right-section {
     flex: 1;
     translate: -20%;
 }
-.welcome-text {
+.section2-welcome-text {
     font-family: 'Monda', sans-serif;
     font-size: 24px;
     font-weight: bold;
@@ -722,39 +722,35 @@ ul li .material-icons {
 }
 
 
-
-
-
-
 @media (max-width: 700px) {
     /*SECCION2*/
-    .content {
+    .section2-content {
         flex-direction: column;  /* Cambiamos la disposición de .content a columna */
     }
     
-    .left-section {
+    .section2-left-section {
         display: flex;           /* Cambiamos a flexbox */
         flex-direction: column;  /* Los elementos se apilarán verticalmente */
         gap: 20px;               /* Espacio entre las imágenes */
         height: auto;            /* Removemos la altura fija */
         order: 2;
-        padding: 32px;
+        padding: 16px;
     }
 
-    .right-section {
-        padding: 32px;
+    .section2-right-section {
+        padding: 16px;
         translate: 0%;
     }
 
-    .horizontal-image {
+    .section2-horizontal-image {
         translate: 0%;
     }
 
-    .right-section {
+    .section2-right-section {
         order: 1;
     }
 
-    .horizontal-image:nth-of-type(1), .horizontal-image:nth-of-type(2) {
+    .section2-horizontal-image:nth-of-type(1), .section2-horizontal-image:nth-of-type(2) {
         grid-column: auto;
         grid-row: auto;
     }
@@ -768,16 +764,16 @@ ul li .material-icons {
 
 @media (max-width: 480px) {
     /*SECCION2*/
-    .header h1 {
+    .section2-heading1 {
         font-size: 1.8em;  /* Disminuimos el tamaño de la fuente del título */
     }
 
-    .right-section {
+    .section2-right-section {
         padding: 0px 32px;
         translate: 0%;
     }
 
-    .welcome-text {
+    .section2-welcome-text {
         font-size: 20px;  /* Disminuimos el tamaño de la fuente del texto de bienvenida */
     }
 
