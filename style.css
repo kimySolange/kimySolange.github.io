@@ -216,7 +216,11 @@
     color: var(--colorSubtitle);
     font-weight: 700;
 }
-
+.section4-rating-info-bold{
+    font-weight: 1500;
+    font-size: 35px;
+    margin: 8px;
+}
 /*SECCION2*/
 .container {
     /* padding: 20px;
