@@ -59,11 +59,10 @@ a.btn {
 }
 
 hr {
-    width: 150px;
     height: 2px;
-    background-color: #2196F3;
-    border: 0;
-    margin-bottom: 80px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 /* Header Section */
@@ -461,6 +460,7 @@ header nav li:last-child {
     flex-direction: column;
     align-items: left;
     padding: 125px 100px;
+    align-items: center;
 }
 
 .section4-information{
@@ -483,6 +483,7 @@ header nav li:last-child {
 
     display: flex;
     flex-direction: column;
+    min-height: 550px;
 }
 
 
@@ -548,6 +549,8 @@ header nav li:last-child {
 .section4-card-perfil-text-time{
     font-weight: 100;
     text-align: left;
+    margin-top: 5px;
+    color: #000;
 }
 
 .section4-card-perfil-text-name{
@@ -868,7 +871,7 @@ ul li .material-icons {
     display: flex;
     flex-direction: column;
     align-items: left;
-    padding: 125px 100px;
+    padding: 0px 100px;
 }
 
 .section5-content{
