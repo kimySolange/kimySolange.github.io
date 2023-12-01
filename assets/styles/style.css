@@ -348,6 +348,7 @@ header nav li:last-child {
 
     .inicio h2 {
         font-size: 54px;
+        margin-bottom: 30px;
     }
 
     .inicio h3 {
@@ -411,7 +412,57 @@ header nav li:last-child {
     font-size: var(--sizeTitle);
     color: var(--colorTitle);
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.section3 a.btn-google {
+    margin-top: 5rem;
+    padding: 20px 46px;
+    width: 200px;
+    height: 50px;
+    padding: 18px 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid var(--muted-color, #BDBDBD);
+    background: var(--VerdeOscuro);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+    margin-right: 10px;
+}
+
+.btn-google h1 {
+    color: white;
+    font-size: 10px; 
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.20px;
+    word-wrap: break-word;
+}
+
+.btn-google h2 {
+    color: white;
+    font-size: 15px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.20px;
+    word-wrap: break-word
+}
+
+.btn-google .small {
+    width: 34.77px;
+    height: 37.97px;
+    left: 0px;
+    top: 0.03px;
+}
+
+.section3-subtitle{
+    margin-bottom: 50px;
 }
 
 .section3-content{
@@ -437,6 +488,39 @@ header nav li:last-child {
     font-weight: 400;
 }
 
+.section3-align-text{
+    margin-top: 7rem;
+}
+
+.section3-align-text-mapa{
+    margin-top: 1rem;
+}
+
+.section3-img-carusel{
+    border-radius: 14px;
+    margin: 0;
+}
+
+.section3-img-carusel img{
+    width: 18rem;
+    height: 18rem;
+}
+
+.section3-carusel-container{
+    position: relative;
+
+}
+
+.section3-text-carusel{
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+    color: #fff; 
+    padding: 10px 20px; 
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.50);
+    font-size: 20px; 
+    text-align: center;
+}
 
 .section3-item-image{
     margin: 0;
@@ -450,7 +534,6 @@ header nav li:last-child {
 
 /*SECCION4: HISTORIAS DE EXITO*/
 .section4{
-    background-image: linear-gradient(to bottom, #ffff, #DEECBB);
     position: relative;
     justify-content: left;
     min-height: 100vh;
@@ -908,10 +991,9 @@ width: min(100%, 1000px);
 }
 
 .section5-item-img{
-display: block;
-margin-top: 150px;
-margin-bottom: auto;
-width: 80%;
+    display: block;
+    margin-bottom: auto;
+    width: 100%;
 
 }
 .section5 .background-image{
@@ -979,7 +1061,7 @@ font-weight: 400;
     margin-top: 10rem;
 }
 
-.section5-item-image .img{
+.section5-item-image img{
 width: max(100%, 100px);
 }
 
